@@ -1,0 +1,121 @@
+body{
+    background-color: #E5E5E5;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color:#E5E5E5;;
+    position: sticky;
+    top: 0px;
+    left:0px ;
+}
+.all{
+    display:flex;
+}
+main{
+    margin-top: 120px;
+}
+span{
+    color: #147B43;
+}
+h1{
+    width: 209px;
+    height: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    color: #000000;
+    display: flex;
+    margin: 50px;
+    filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 0.25));
+}
+h2{
+    width: 209px;
+    height: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    position: sticky;
+    left: 778px;
+    top: 76px;
+
+}
+h3{
+    width: 209px;
+    height: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    position:sticky ;
+    left: 890px;
+    top: 75px;
+}
+h4{
+    width: 209px;
+    height: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    position: sticky;
+    left: 1039px;
+    top: 75px;
+}
+.square{
+    position:sticky;
+    left: 1477px;
+    top: 62px;
+    width: 174px;
+    height: 66px;
+    background-color: #147B43;
+    border-radius: 30px;
+    width: 160.08px;
+    height: 36.3px;
+    left: 1584px;
+    top: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FDF8F8;
+}
+@media screen and (max-width:768px) {
+    header{
+        flex-direction: column;
+        display: column;
+       }
+       h1{
+        order: 1;
+       }
+       h2{
+        order: 2;
+
+       }
+       h3{
+        order: 3;
+        
+       }
+       h4{
+        order: 4;
+        
+       }
+       .square{
+        order: 5;
+        
+       }
+       main{
+        flex-direction: column;
+       }
+}
